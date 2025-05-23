@@ -48,3 +48,5 @@ export const RotatingCamera = ({
     </>
   )
 }
+
+// this is a test component for the camera routating
