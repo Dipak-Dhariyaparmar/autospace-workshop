@@ -23,3 +23,6 @@ export const Building = ({ position, size, floors = 3 }: BuildingProps) => {
     </>
   )
 }
+
+// This component renders a building with a specified number of floors.
+// Each floor is represented as a square positioned at the appropriate height.

@@ -27,3 +27,5 @@ export const BlinkingParkingSlot = ({
 
   return <Square {...props} borderColor={borderColor} />
 }
+
+// this is a test component for the blinking parking slot
