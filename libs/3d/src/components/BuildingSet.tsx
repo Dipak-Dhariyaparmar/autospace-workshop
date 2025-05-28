@@ -55,6 +55,3 @@ export const BuildingSet = ({
     </group>
   )
 }
-
-// This component renders a set of buildings based on the provided building sets.
-// It randomly selects a building set and generates buildings with random heights within the specified range.

@@ -56,10 +56,3 @@ export const Spawner = ({
     </>
   )
 }
-
-// This Spawner component creates a system that spawns elements at regular intervals
-// along a line defined by startPosition and endPosition. The spawned elements
-// move from the start to the end position over a specified duration.
-// The spawnInterval prop determines how often new elements are spawned.
-// The elements are stored in state, and their progress is updated each frame.
-// The children prop allows for any ReactNode to be rendered at the spawned positions,

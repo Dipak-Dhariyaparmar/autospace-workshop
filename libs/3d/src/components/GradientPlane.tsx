@@ -38,9 +38,3 @@ export const GradientPlane = ({
   )
 }
 
-// This component renders a plane with a gradient texture that transitions from gray to the defined road color.
-// The texture is created using a canvas element, and the plane is positioned and rotated as specified.
-// The gradient is applied horizontally across the plane, creating a visually appealing road-like appearance.
-// The `position` prop defines the position of the plane in 3D space, while the `size` prop determines its dimensions.
-// The `rotation` prop allows for custom rotation of the plane, defaulting to a horizontal orientation.
-// The gradient texture is generated only once using the `useMemo` hook to optimize performance.

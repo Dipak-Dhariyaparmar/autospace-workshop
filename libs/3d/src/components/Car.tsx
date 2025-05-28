@@ -105,9 +105,3 @@ export const Car: React.FC<CarProps> = ({
     </>
   )
 }
-
-// This component renders a car with optional features such as color, position, size, and comments.
-// It can also display a blinking parking slot when searching, and a gradient trail behind the car.
-// The car's size is randomly generated if not provided, and it can display a random comment that updates periodically.
-// The car's orientation can be adjusted based on the `forward` prop, allowing for different trail directions.
-// The `searching` prop controls whether a blinking parking slot is displayed above the car.
