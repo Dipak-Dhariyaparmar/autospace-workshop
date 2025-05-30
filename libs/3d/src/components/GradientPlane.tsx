@@ -38,3 +38,7 @@ export const GradientPlane = ({
   )
 }
 
+
+// this component is used to create a gradient plane in a 3D scene.
+// It uses a canvas to create a linear gradient texture that transitions from gray to the road color.
+// The plane is positioned and rotated based on the provided props.

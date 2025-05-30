@@ -55,3 +55,8 @@ export const BuildingSet = ({
     </group>
   )
 }
+
+//  this component is used to render a set of buildings in a 3D scene.
+// It uses the useEffect hook to initialize the building set index and generate random heights for each building's floors.
+// The building set is selected from a predefined list of building sets (BUILDING_SETS).
+// Each building is rendered using the Building component, which takes the position, size, and number of floors as props.

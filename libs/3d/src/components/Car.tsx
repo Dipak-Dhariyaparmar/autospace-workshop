@@ -105,3 +105,9 @@ export const Car: React.FC<CarProps> = ({
     </>
   )
 }
+
+// this component is used to render a car in a 3D scene.
+// It uses the Box component from @react-three/drei to create a box-shaped car.
+// The car's color, position, size, and other properties can be customized through props.
+// The component also includes optional features such as a blinking parking slot when searching for a parking space,
+// a comment displayed above the car, and a gradient trail behind the car.

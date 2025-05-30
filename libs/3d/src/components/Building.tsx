@@ -23,3 +23,8 @@ export const Building = ({ position, size, floors = 3 }: BuildingProps) => {
     </>
   )
 }
+
+// this component is used to render a building in a 3D scene.
+// It creates a series of squares stacked vertically to represent the floors of the building.
+// The number of floors is determined by the `floors` prop, which defaults to 3.
+// Each square is positioned based on the `position` prop and the `FLOOR_HEIGHT` constant.

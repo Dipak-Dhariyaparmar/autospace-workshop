@@ -49,3 +49,8 @@ export const RotatingCamera = ({
   )
 }
 
+// this component is used to create a rotating camera that orbits around a point in 3D space.
+// It uses the useFrame hook to update the camera's position and field of view over time.
+// The camera rotates around a point defined by the radius and angle, and the field of view oscillates between minFov and maxFov.
+// The camera's position is updated based on the sine and cosine of the angle, creating a circular motion.
+// The camera looks at a fixed point in space, which is defined by the lookAt method.
